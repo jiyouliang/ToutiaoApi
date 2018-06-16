@@ -50,6 +50,7 @@
 	news_all                推荐新闻
 	news_host               热点新闻
 	news_entertainment      娱乐新闻
+	news_sport              体育新闻
 	news_fashion            时尚新闻
 	news_finance            金融新闻
 	news_military           军事新闻
