@@ -37,9 +37,22 @@
 
 ![](imgs/4.png)
 
-### 5.其他说明
+### 5.各个频道url地址说明
 
-当前django暂时只有“科技”频道视图，toutiao.sql默认提供了今日头条10个频道（科技、热点、推荐、体育、军事等）总共5000多条数据，想要显示所有频道数据，请根据需求自行添加app或者view视图函数。
+示例url：http://ip:端口/ToutiaoApi/news_tech?tag=频道名称page=页码
+		
+11个频道说明：
+
+	news_tech               科技新闻
+	news_all                推荐新闻
+	news_host               热点新闻
+	news_entertainment      娱乐新闻
+	news_fashion            时尚新闻
+	news_finance            金融新闻
+	news_military           军事新闻
+	news_society            社会新闻
+	news_world              世界新闻
+	news_game               游戏新闻
 
 ![](imgs/5.png)
 

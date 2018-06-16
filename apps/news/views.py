@@ -77,6 +77,12 @@ def news_world(page):
     return query_more(connect, table="news_world", page=int(page))
 
 
+def news_game(page):
+    """游戏"""
+    connect = mysqlutils.get_connect("toutiao")
+    return query_more(connect, table="news_game", page=int(page))
+
+
 def query_more(connect="toutiao", table="news_tech", page=1):
     """查询数据库"""
     dict_result = {}
