@@ -39,7 +39,10 @@
 
 ### 5.各个频道url地址说明
 
-示例url：http://ip:端口/ToutiaoApi/news_tech?tag=频道名称page=页码
+	示例url：http://ip:端口/ToutiaoApi/news?tag=news_tech&page=1
+	tag：频道名称
+	page：页码
+
 		
 11个频道说明：
 
