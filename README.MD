@@ -31,9 +31,9 @@
 
 ### 4.访问视图
 
-下图对应视图函数：/apps/news_tech/模块中的news_tech()函数
+下图对应视图函数：/apps/news/views.py模块中的news_tech()函数
 
-	http://ip:端口/ToutiaoApi/news_tech?page=1
+	http://ip:端口/ToutiaoApi/news?tag=news_tech&page=1
 
 ![](imgs/4.png)
 
